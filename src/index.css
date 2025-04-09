@@ -72,3 +72,44 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/* Para centrar todo el contenido */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+}
+
+/* Contenedor principal */
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}
+
+img {
+  width: 150px; /* Ajustar tamaño del icono */
+  margin-bottom: 20px;
+}
+
